@@ -1,13 +1,15 @@
-# TRABALHO 01:  Título do Trabalho
+# TRABALHO 01:  Locadora NetMovies
 Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
-...<br>
+Discente 1: < Levi Tonon Lisboa > < levitonon@hotmail.com >
+Discente 2: < Fabio Henrique Fantin Ribeiro Cozer > < fhenrique.fantin@gmail.com >
+Discente 3: < Petar Veljovic > < petarveljovic1234@gmail.com >
+Repositório: < https://github.com/SirLevi015/Transcol_BD >
+<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 

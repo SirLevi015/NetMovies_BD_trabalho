@@ -5,18 +5,17 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-<br>Discente 1: < Levi Tonon Lisboa > < levitonon@hotmail.com >
-<br>Discente 2: < Fabio Henrique Fantin Ribeiro Cozer > < fhenrique.fantin@gmail.com >
-<br>Discente 3: < Petar Veljovic > < petarveljovic1234@gmail.com >
-<br>Repositório: < https://github.com/SirLevi015/Transcol_BD >
+<br>Discente 1:   Levi Tonon Lisboa                       levitonon@hotmail.com
+<br>Discente 2:   Fabio Henrique Fantin Ribeiro Cozer     fhenrique.fantin@gmail.com
+<br>Discente 3:   Petar Veljovic                          petarveljovic1234@gmail.com
+<br>Repositório:  https://github.com/SirLevi015/Transcol_BD
 <br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto>
 <br> e motivação da escolha realizada. <br>
 
-> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
- 
+> A locadora NetMovies visa perante a sociedade fornecer via vendas produtos de filmes, sendo feita de forma on-line.
 
 ### 3.MINI-MUNDO<br>
 

@@ -8,7 +8,7 @@ Integrantes do grupo<br>
 <br>Discente 1:   Levi Tonon Lisboa                       levitonon@hotmail.com
 <br>Discente 2:   Fabio Henrique Fantin Ribeiro Cozer     fhenrique.fantin@gmail.com
 <br>Discente 3:   Petar Veljovic                          petarveljovic1234@gmail.com
-<br>Repositório:  https://github.com/SirLevi015/Transcol_BD
+<br>Repositório:  https://github.com/SirLevi015/NetMovies_BD_trabalho
 <br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>

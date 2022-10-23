@@ -37,8 +37,7 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
 
-![Alt text](https://www.quant-ux.com/#/test.html?h=a2aa10aePOM0HkfDPYarPO1Kwzd5ezRVMKLy8Fjg3RtBaiNbOCUWtLotsmKi&ln=en "Title")
-![Link de teste NetMovies](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
+![Link de teste NetMovies](https://www.quant-ux.com/#/test.html?h=a2aa10aePOM0HkfDPYarPO1Kwzd5ezRVMKLy8Fjg3RtBaiNbOCUWtLotsmKi&ln=en "Empresa NetMovies")
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!

@@ -76,8 +76,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Grupo01]: Fabio, Levi, Petar;
+    [Grupo02]: João, Marcos, Vinícius;
 
 #### 5.2 Descrição dos dados 
     [objeto]: [descrição do objeto]
@@ -109,7 +109,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
-># x<br>x<br>xMarco de Entrega 01: Do item 1 até o item 9.1<br>x<br>x<br>x<br>
+># Marco de Entrega 01: Do item 1 até o item 9.1<br>
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)

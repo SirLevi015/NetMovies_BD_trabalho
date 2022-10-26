@@ -76,7 +76,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: Fabio, Levi, Petar;
-    [Grupo02]: João, Marcos, Vinícius;
+    [Grupo02]: João, Marcos, Vinícius, Bruno;
 
 #### 5.2 Descrição dos dados 
     [objeto]: [descrição do objeto]

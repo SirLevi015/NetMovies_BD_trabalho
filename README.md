@@ -104,7 +104,102 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
+/* Lógico_realofc: */
 
+CREATE TABLE LOCACAO (
+    cod_loc INTEGER PRIMARY KEY,
+    data_devolucao INTEGER,
+    data_locacao DATE,
+    valor_total INTEGER,
+    FK_ENTREGADOR_FK_PESSOA_cod_pessoa INTEGER,
+    FK_CLIENTE_FK_PESSOA_cod_pessoa INTEGER
+);
+
+CREATE TABLE MIDIA (
+    cod_midia INTEGER PRIMARY KEY,
+    nome_midia VARCHAR,
+    categoria VARCHAR,
+    direcao VARCHAR,
+    sinopse VARCHAR,
+    atores VARCHAR,
+    data_lancamento VARCHAR,
+    valor INTEGER
+);
+
+CREATE TABLE ENTREGADOR (
+    placa_moto VARCHAR,
+    FK_PESSOA_cod_pessoa INTEGER PRIMARY KEY
+);
+
+CREATE TABLE CLIENTE (
+    email VARCHAR,
+    endereco VARCHAR,
+    senha VARCHAR,
+    FK_PESSOA_cod_pessoa INTEGER PRIMARY KEY
+);
+
+CREATE TABLE FILME (
+    duracao TIME,
+    FK_MIDIA_cod_midia INTEGER PRIMARY KEY
+);
+
+CREATE TABLE SERIE (
+    temporada INTEGER,
+    episodio INTEGER,
+    FK_MIDIA_cod_midia INTEGER PRIMARY KEY
+);
+
+CREATE TABLE PESSOA (
+    nome VARCHAR,
+    cpf VARCHAR,
+    cod_pessoa INTEGER PRIMARY KEY
+);
+
+CREATE TABLE Midia_locacao (
+    fk_MIDIA_cod_midia INTEGER,
+    fk_LOCACAO_cod_loc INTEGER,
+    qtd_midia INTEGER
+);
+ 
+ALTER TABLE LOCACAO ADD CONSTRAINT FK_LOCACAO_2
+    FOREIGN KEY (FK_ENTREGADOR_FK_PESSOA_cod_pessoa)
+    REFERENCES ENTREGADOR (FK_PESSOA_cod_pessoa)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE LOCACAO ADD CONSTRAINT FK_LOCACAO_3
+    FOREIGN KEY (FK_CLIENTE_FK_PESSOA_cod_pessoa)
+    REFERENCES CLIENTE (FK_PESSOA_cod_pessoa)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE ENTREGADOR ADD CONSTRAINT FK_ENTREGADOR_2
+    FOREIGN KEY (FK_PESSOA_cod_pessoa)
+    REFERENCES PESSOA (cod_pessoa)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE CLIENTE ADD CONSTRAINT FK_CLIENTE_2
+    FOREIGN KEY (FK_PESSOA_cod_pessoa)
+    REFERENCES PESSOA (cod_pessoa)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE FILME ADD CONSTRAINT FK_FILME_2
+    FOREIGN KEY (FK_MIDIA_cod_midia)
+    REFERENCES MIDIA (cod_midia)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE SERIE ADD CONSTRAINT FK_SERIE_2
+    FOREIGN KEY (FK_MIDIA_cod_midia)
+    REFERENCES MIDIA (cod_midia)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE Midia_locacao ADD CONSTRAINT FK_Midia_locacao_1
+    FOREIGN KEY (fk_MIDIA_cod_midia)
+    REFERENCES MIDIA (cod_midia)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Midia_locacao ADD CONSTRAINT FK_Midia_locacao_2
+    FOREIGN KEY (fk_LOCACAO_cod_loc)
+    REFERENCES LOCACAO (cod_loc)
+    ON DELETE SET NULL;
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>

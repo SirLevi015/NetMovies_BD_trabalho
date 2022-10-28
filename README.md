@@ -106,90 +106,90 @@ CREATE TABLE LOCACAO (<br>
     FK_CLIENTE_FK_PESSOA_cod_pessoa INTEGER<br>
 );
 
-CREATE TABLE MIDIA (
-    cod_midia INTEGER PRIMARY KEY,
-    nome_midia VARCHAR,
-    categoria VARCHAR,
-    direcao VARCHAR,
-    sinopse VARCHAR,
-    atores VARCHAR,
-    data_lancamento VARCHAR,
-    valor INTEGER
+CREATE TABLE MIDIA (<br>
+    cod_midia INTEGER PRIMARY KEY,<br>
+    nome_midia VARCHAR,<br>
+    categoria VARCHAR,<br>
+    direcao VARCHAR,<br>
+    sinopse VARCHAR,<br>
+    atores VARCHAR,<br>
+    data_lancamento VARCHAR,<br>
+    valor INTEGER<br>
 );
 
-CREATE TABLE ENTREGADOR (
-    placa_moto VARCHAR,
-    FK_PESSOA_cod_pessoa INTEGER PRIMARY KEY
+CREATE TABLE ENTREGADOR (<br>
+    placa_moto VARCHAR,<br>
+    FK_PESSOA_cod_pessoa INTEGER PRIMARY KEY<br>
 );
 
-CREATE TABLE CLIENTE (
-    email VARCHAR,
-    endereco VARCHAR,
-    senha VARCHAR,
-    FK_PESSOA_cod_pessoa INTEGER PRIMARY KEY
+CREATE TABLE CLIENTE (<br>
+    email VARCHAR,<br>
+    endereco VARCHAR,<br>
+    senha VARCHAR,<br>
+    FK_PESSOA_cod_pessoa INTEGER PRIMARY KEY<br>
 );
 
-CREATE TABLE FILME (
-    duracao TIME,
-    FK_MIDIA_cod_midia INTEGER PRIMARY KEY
+CREATE TABLE FILME (<br>
+    duracao TIME,<br>
+    FK_MIDIA_cod_midia INTEGER PRIMARY KEY<br>
 );
 
-CREATE TABLE SERIE (
-    temporada INTEGER,
-    episodio INTEGER,
-    FK_MIDIA_cod_midia INTEGER PRIMARY KEY
+CREATE TABLE SERIE (<br>
+    temporada INTEGER,<br>
+    episodio INTEGER,<br>
+    FK_MIDIA_cod_midia INTEGER PRIMARY KEY<br>
 );
 
-CREATE TABLE PESSOA (
-    nome VARCHAR,
-    cpf VARCHAR,
-    cod_pessoa INTEGER PRIMARY KEY
+CREATE TABLE PESSOA (<br>
+    nome VARCHAR,<br>
+    cpf VARCHAR,<br>
+    cod_pessoa INTEGER PRIMARY KEY<br>
 );
 
-CREATE TABLE Midia_locacao (
-    fk_MIDIA_cod_midia INTEGER,
-    fk_LOCACAO_cod_loc INTEGER,
-    qtd_midia INTEGER
+CREATE TABLE Midia_locacao (<br>
+    fk_MIDIA_cod_midia INTEGER,<br>
+    fk_LOCACAO_cod_loc INTEGER,<br>
+    qtd_midia INTEGER<br>
 );
  
-ALTER TABLE LOCACAO ADD CONSTRAINT FK_LOCACAO_2
-    FOREIGN KEY (FK_ENTREGADOR_FK_PESSOA_cod_pessoa)
-    REFERENCES ENTREGADOR (FK_PESSOA_cod_pessoa)
+ALTER TABLE LOCACAO ADD CONSTRAINT FK_LOCACAO_2<br>
+    FOREIGN KEY (FK_ENTREGADOR_FK_PESSOA_cod_pessoa)<br>
+    REFERENCES ENTREGADOR (FK_PESSOA_cod_pessoa)<br>
     ON DELETE RESTRICT;
  
-ALTER TABLE LOCACAO ADD CONSTRAINT FK_LOCACAO_3
-    FOREIGN KEY (FK_CLIENTE_FK_PESSOA_cod_pessoa)
-    REFERENCES CLIENTE (FK_PESSOA_cod_pessoa)
+ALTER TABLE LOCACAO ADD CONSTRAINT FK_LOCACAO_3<br>
+    FOREIGN KEY (FK_CLIENTE_FK_PESSOA_cod_pessoa)<br>
+    REFERENCES CLIENTE (FK_PESSOA_cod_pessoa)<br>
     ON DELETE CASCADE;
  
-ALTER TABLE ENTREGADOR ADD CONSTRAINT FK_ENTREGADOR_2
-    FOREIGN KEY (FK_PESSOA_cod_pessoa)
-    REFERENCES PESSOA (cod_pessoa)
+ALTER TABLE ENTREGADOR ADD CONSTRAINT FK_ENTREGADOR_2<br>
+    FOREIGN KEY (FK_PESSOA_cod_pessoa)<br>
+    REFERENCES PESSOA (cod_pessoa)<br>
+    ON DELETE CASCADE;<br>
+ 
+ALTER TABLE CLIENTE ADD CONSTRAINT FK_CLIENTE_2<br>
+    FOREIGN KEY (FK_PESSOA_cod_pessoa)<br>
+    REFERENCES PESSOA (cod_pessoa)<br>
     ON DELETE CASCADE;
  
-ALTER TABLE CLIENTE ADD CONSTRAINT FK_CLIENTE_2
-    FOREIGN KEY (FK_PESSOA_cod_pessoa)
-    REFERENCES PESSOA (cod_pessoa)
+ALTER TABLE FILME ADD CONSTRAINT FK_FILME_2<br>
+    FOREIGN KEY (FK_MIDIA_cod_midia)<br>
+    REFERENCES MIDIA (cod_midia)<br>
     ON DELETE CASCADE;
  
-ALTER TABLE FILME ADD CONSTRAINT FK_FILME_2
-    FOREIGN KEY (FK_MIDIA_cod_midia)
-    REFERENCES MIDIA (cod_midia)
+ALTER TABLE SERIE ADD CONSTRAINT FK_SERIE_2<br>
+    FOREIGN KEY (FK_MIDIA_cod_midia)<br>
+    REFERENCES MIDIA (cod_midia)<br>
     ON DELETE CASCADE;
  
-ALTER TABLE SERIE ADD CONSTRAINT FK_SERIE_2
-    FOREIGN KEY (FK_MIDIA_cod_midia)
-    REFERENCES MIDIA (cod_midia)
-    ON DELETE CASCADE;
- 
-ALTER TABLE Midia_locacao ADD CONSTRAINT FK_Midia_locacao_1
-    FOREIGN KEY (fk_MIDIA_cod_midia)
-    REFERENCES MIDIA (cod_midia)
+ALTER TABLE Midia_locacao ADD CONSTRAINT FK_Midia_locacao_1<br>
+    FOREIGN KEY (fk_MIDIA_cod_midia)<br>
+    REFERENCES MIDIA (cod_midia)<br>
     ON DELETE RESTRICT;
  
-ALTER TABLE Midia_locacao ADD CONSTRAINT FK_Midia_locacao_2
-    FOREIGN KEY (fk_LOCACAO_cod_loc)
-    REFERENCES LOCACAO (cod_loc)
+ALTER TABLE Midia_locacao ADD CONSTRAINT FK_Midia_locacao_2<br>
+    FOREIGN KEY (fk_LOCACAO_cod_loc)<br>
+    REFERENCES LOCACAO (cod_loc)<br>
     ON DELETE SET NULL;
        
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
@@ -199,46 +199,46 @@ ALTER TABLE Midia_locacao ADD CONSTRAINT FK_Midia_locacao_2
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
 
-insert into pessoa values ('Levi', 11111111111,1);
-insert into pessoa values ('Roberto', 22222222222, 2)
-insert into pessoa values ('Jorge',33333333333,3);
-insert into pessoa values ('Silvana',44444444444,4);
-insert into pessoa values ('Ana',55555555555,5);
+insert into pessoa values ('Levi', 11111111111,1);<br>
+insert into pessoa values ('Roberto', 22222222222, 2);<br>
+insert into pessoa values ('Jorge',33333333333,3);<br>
+insert into pessoa values ('Silvana',44444444444,4);<br>
+insert into pessoa values ('Ana',55555555555,5);<br>
 insert into pessoa values ('Carlos',66666666666,6);
 
-insert into cliente values ('levi@gmail.com', 'Vitória', 'Levi123', 1);
-insert into cliente values ('silvana@gmail.com','rua da silva junior','Senha123',4);
-insert into cliente values ('ana.ana@gmail.com','rua dos grandes','Senha456',5);
+insert into cliente values ('levi@gmail.com', 'Vitória', 'Levi123', 1);<br>
+insert into cliente values ('silvana@gmail.com','rua da silva junior','Senha123',4);<br>
+insert into cliente values ('ana.ana@gmail.com','rua dos grandes','Senha456',5);<br>
 insert into cliente values ('carlos@gmail.com','rua maracanã','Senha789',6);
 
-insert into entregador values('RBT-1322', 2);
+insert into entregador values('RBT-1322', 2);<br>
 insert into entregador values('CJF-1234',3);
 
-insert into locacao values(1, '2021-07-10', 2, 1, '2021-07-17');
-insert into locacao values(2,'2022/08/10','2022/08/03',3,4);
-insert into locacao values(3,'2022/10/29','2022/08/22',2,5);
-insert into locacao values(4,'2022/09/18','2022/08/11',3,6);
+insert into locacao values(1, '2021-07-10', 2, 1, '2021-07-17');<br>
+insert into locacao values(2,'2022/08/10','2022/08/03',3,4);<br>
+insert into locacao values(3,'2022/10/29','2022/08/22',2,5);<br>
+insert into locacao values(4,'2022/09/18','2022/08/11',3,6);<br>
 insert into locacao values(5,'2022/10/27','2022/08/20',2,4);
 
-insert into midia values(1, 'Os sem floresta', 'Comédia', 'Travis scott', 'Sinopse1', 'Ator1,Ator2', '2006/07/07', 20);
-insert into midia values(2,'Inglórios Bastardos','Guerra','Quentin Quarantino','Sinopse2','Ator1,Ator2,Ator3,Ator4,Ator5','2009/10/09',30);
-insert into midia values(3,'Coringa: O Cavaleiro da Luz','Suspense,Ação','Christopher Nolan','Sinopse3','Ator1,Ator2,Ator3','2008/07/18',25);
-insert into midia values(4,'Se ela dança eu danço','Dança','Anne Fletcher','Sinopse4','Ator1,Ator2,Ator3,Ator4,Ator5,Ator6','2006/12/08',20);
-insert into midia values(5,'Uncharted: Fora do Mapa','Ação','Ruben Fleischer','Sinopse5','Ator1,Ator2,Ator3,Ator4','2022/02/17',40);
+insert into midia values(1, 'Os sem floresta', 'Comédia', 'Travis scott', 'Sinopse1', 'Ator1,Ator2', '2006/07/07', 20);<br>
+insert into midia values(2,'Inglórios Bastardos','Guerra','Quentin Quarantino','Sinopse2','Ator1,Ator2,Ator3,Ator4,Ator5','2009/10/09',30);<br>
+insert into midia values(3,'Coringa: O Cavaleiro da Luz','Suspense,Ação','Christopher Nolan','Sinopse3','Ator1,Ator2,Ator3','2008/07/18',25);<br>
+insert into midia values(4,'Se ela dança eu danço','Dança','Anne Fletcher','Sinopse4','Ator1,Ator2,Ator3,Ator4,Ator5,Ator6','2006/12/08',20);<br>
+insert into midia values(5,'Uncharted: Fora do Mapa','Ação','Ruben Fleischer','Sinopse5','Ator1,Ator2,Ator3,Ator4','2022/02/17',40);<br>
 insert into midia values(6,'The Office','Comédia','Bryan Cranston','Sinopse6','Ator1,Ator2,Ator3,Ator4,Ator5,Ator6','2005/03/24',12);
 
-insert into filme values('01:56:45',1);
-insert into filme values('02:13:12',2);
-insert into filme values('01:35:06',3);
-insert into filme values('02:21:56',4);
+insert into filme values('01:56:45',1);<br>
+insert into filme values('02:13:12',2);<br>
+insert into filme values('01:35:06',3);<br>
+insert into filme values('02:21:56',4);<br>
 insert into filme values('03:03:11',5);
 
 insert into serie values(9,201,6);
 
-insert into midia_locacao values(1, 1, 2);
-insert into midia_locacao values(3,2,1);
-insert into midia_locacao values(4,3,1);
-insert into midia_locacao values(5,4,2);
+insert into midia_locacao values(1, 1, 2);<br>
+insert into midia_locacao values(3,2,1);<br>
+insert into midia_locacao values(4,3,1);<br>
+insert into midia_locacao values(5,4,2);<br>
 insert into midia_locacao values(6,5,1);
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>

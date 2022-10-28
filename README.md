@@ -37,6 +37,11 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 [Link de teste NetMovies](https://www.quant-ux.com/#/test.html?h=a2aa10aePOM0HkfDPYarPO1Kwzd5ezRVMKLy8Fjg3RtBaiNbOCUWtLotsmKi&ln=en "Empresa NetMovies")<br>
 
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/Tela%20cadastro.png "Tela cadastro")<br>
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/Tela%20inicial.png "Tela inicial")<br>
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/Tela%20carrinho.png "Tela carrinho")<br>
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/Tela%20perfil.png "Tela perfil")<br>
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/Tela%20pagamento.png "Tela pagamento")
 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 

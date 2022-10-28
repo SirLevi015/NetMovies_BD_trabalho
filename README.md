@@ -97,13 +97,13 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 
         (criação de tabelas, alterações, etc..)             
 
-CREATE TABLE LOCACAO (
-    cod_loc INTEGER PRIMARY KEY,
-    data_devolucao INTEGER,
-    data_locacao DATE,
-    valor_total INTEGER,
-    FK_ENTREGADOR_FK_PESSOA_cod_pessoa INTEGER,
-    FK_CLIENTE_FK_PESSOA_cod_pessoa INTEGER
+CREATE TABLE LOCACAO (<br>
+    cod_loc INTEGER PRIMARY KEY,<br>
+    data_devolucao INTEGER,<br>
+    data_locacao DATE,<br>
+    valor_total INTEGER,<br>
+    FK_ENTREGADOR_FK_PESSOA_cod_pessoa INTEGER,<br>
+    FK_CLIENTE_FK_PESSOA_cod_pessoa INTEGER<br>
 );
 
 CREATE TABLE MIDIA (

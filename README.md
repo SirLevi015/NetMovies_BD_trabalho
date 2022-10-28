@@ -212,42 +212,69 @@ insert into pessoa values ('Roberto', 22222222222, 2);<br>
 insert into pessoa values ('Jorge',33333333333,3);<br>
 insert into pessoa values ('Silvana',44444444444,4);<br>
 insert into pessoa values ('Ana',55555555555,5);<br>
-insert into pessoa values ('Carlos',66666666666,6);
+insert into pessoa values ('Carlos',66666666666,6);<br>
+insert into pessoa values ('Irineu',77777777777,7);<br>
+insert into pessoa values ('Cleber',88888888888,8);<br>
+insert into pessoa values ('Kristian',99999999999,9);<br>
+insert into pessoa values ('Thiago',10101010101,10);<br>
 
 insert into cliente values ('levi@gmail.com', 'Vitória', 'Levi123', 1);<br>
 insert into cliente values ('silvana@gmail.com','rua da silva junior','Senha123',4);<br>
 insert into cliente values ('ana.ana@gmail.com','rua dos grandes','Senha456',5);<br>
-insert into cliente values ('carlos@gmail.com','rua maracanã','Senha789',6);
+insert into cliente values ('carlos@gmail.com','rua maracanã','Senha789',6);<br>
+insert into cliente values ('Irineu@gmail.com','rua nilton santos','Senha234',7);<br>
+insert into cliente values ('Cleber@gmail.com','rua boca juniors','Senha583',8);<br>
+insert into cliente values ('Kristian@gmail.com','rua barcelona','Senha295',9);<br>
 
 insert into entregador values('RBT-1322', 2);<br>
-insert into entregador values('CJF-1234',3);
+insert into entregador values('CJF-1234',3);<br>
+insert into entregador values('JSF-4623',10);<br>
 
-insert into locacao values(1, '2021-07-10', 2, 1, '2021-07-17');<br>
-insert into locacao values(2,'2022/08/10','2022/08/03',3,4);<br>
-insert into locacao values(3,'2022/10/29','2022/08/22',2,5);<br>
-insert into locacao values(4,'2022/09/18','2022/08/11',3,6);<br>
-insert into locacao values(5,'2022/10/27','2022/08/20',2,4);
+insert into locacao values(1, '2021/07/10', 2, 1, '2021/07/17');<br>
+insert into locacao values(2,'2022/08/03',3,4,'2022/08/10');<br>
+insert into locacao values(3,'2022/08/22',2,5,'2022/10/29');<br>
+insert into locacao values(4,'2022/08/11',3,6,'2022/09/18');<br>
+insert into locacao values(5,'2022/08/20',2,4,'2022/10/27');<br>
+insert into locacao values(6,'2022/05/10',10,8,'2022/05/17');<br>
+insert into locacao values(7,'2022/03/03',10,9,'2022/03/10');<br>
+insert into locacao values(8,'2022/04/30',2,7,'2022/05/07');<br>
+insert into locacao values(9,'2022/06/10',10,8,'2022/06/17');<br>
+insert into locacao values(10,'2022/04/30',3,9,'2022/05/07');<br>
 
 insert into midia values(1, 'Os sem floresta', 'Comédia', 'Travis scott', 'Sinopse1', 'Ator1,Ator2', '2006/07/07', 20);<br>
 insert into midia values(2,'Inglórios Bastardos','Guerra','Quentin Quarantino','Sinopse2','Ator1,Ator2,Ator3,Ator4,Ator5','2009/10/09',30);<br>
 insert into midia values(3,'Coringa: O Cavaleiro da Luz','Suspense,Ação','Christopher Nolan','Sinopse3','Ator1,Ator2,Ator3','2008/07/18',25);<br>
 insert into midia values(4,'Se ela dança eu danço','Dança','Anne Fletcher','Sinopse4','Ator1,Ator2,Ator3,Ator4,Ator5,Ator6','2006/12/08',20);<br>
 insert into midia values(5,'Uncharted: Fora do Mapa','Ação','Ruben Fleischer','Sinopse5','Ator1,Ator2,Ator3,Ator4','2022/02/17',40);<br>
-insert into midia values(6,'The Office','Comédia','Bryan Cranston','Sinopse6','Ator1,Ator2,Ator3,Ator4,Ator5,Ator6','2005/03/24',12);
+insert into midia values(6,'The Office','Comédia','Bryan Cranston','Sinopse6','Ator1,Ator2,Ator3,Ator4,Ator5,Ator6','2005/03/24',12);<br>
+insert into midia values(7,'Homem aranha','Herói','San Raimi','Sinopse7','Ator1,Ator2,Ator3,Ator4,Ator5,Ator6,Ator7','2022/07/14',35);<br>
+insert into midia values(8,'Vingadores','Herói','Carolina Jorge','Sinopse8','Ator1,Ator2,Ator3,Ator4','2020/11/23',30);<br>
+insert into midia values(9,'Entrelinhas Pontilhadas','Comédia,Drama','Kurt Trut','Sinopse9','Ator1,Ator2,Ator3','2019/03/10',20);<br>
+insert into midia values(10,'Black Mirror','Distopia','Christian Trotski','Sinopse10','Ator1,Ator2,Ator3,Ator4','2006/05/22',15);<br>
 
 insert into filme values('01:56:45',1);<br>
 insert into filme values('02:13:12',2);<br>
 insert into filme values('01:35:06',3);<br>
 insert into filme values('02:21:56',4);<br>
-insert into filme values('03:03:11',5);
+insert into filme values('03:03:11',5);<br>
+insert into filme values('02:03:01',6);<br>
+insert into filme values('01:28:23',7);<br>
+insert into filme values('02:34:31',8);<br>
+insert into filme values('02:36:45',9);<br>
 
-insert into serie values(9,201,6);
+insert into serie values(9,201,6);<br>
+insert into serie values(5,21,10);<br>
 
 insert into midia_locacao values(1, 1, 2);<br>
 insert into midia_locacao values(3,2,1);<br>
 insert into midia_locacao values(4,3,1);<br>
 insert into midia_locacao values(5,4,2);<br>
-insert into midia_locacao values(6,5,1);
+insert into midia_locacao values(6,5,2);<br>
+insert into midia_locacao values(7,6,1);<br>
+insert into midia_locacao values(8,7,1);<br>
+insert into midia_locacao values(9,8,1);<br>
+insert into midia_locacao values(6,9,1);<br>
+insert into midia_locacao values(10,5,1);<br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>

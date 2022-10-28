@@ -35,9 +35,9 @@ Além disso, no momento da entrega, deve-se informar a devolução correta da m�
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
+[Link de teste NetMovies](https://www.quant-ux.com/#/test.html?h=a2aa10aePOM0HkfDPYarPO1Kwzd5ezRVMKLy8Fjg3RtBaiNbOCUWtLotsmKi&ln=en "Empresa NetMovies")<br>
 
-[Link de teste NetMovies](https://www.quant-ux.com/#/test.html?h=a2aa10aePOM0HkfDPYarPO1Kwzd5ezRVMKLy8Fjg3RtBaiNbOCUWtLotsmKi&ln=en "Empresa NetMovies")
+
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     
@@ -51,7 +51,7 @@ Relatório com todos os entregadores<br>
 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
+> A Empresa NetMovies precisa inicialmente dos seguintes relatórios:
 * Relatório que mostre o total de locações em determinado dia. O resultado terá as locações e a data de locação de cada uma delas.
 * Relatorio que mostre quais clientes estão com quais mídias e até quando irá essa locação. O resultado deve conter nome do cliente e data final da locação.
 * Relatório que mostre as informações relacionadas aos clientes. As informações serão o nome, cpf, email, endereço e senha dos clientes.

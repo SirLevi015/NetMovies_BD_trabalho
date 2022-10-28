@@ -83,7 +83,7 @@ Relatório com todos os entregadores<br>
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
-![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/Modelo%20conceitual%20locadora.png "Modelo Conceitual")
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/Modelo%20conceitual%20da%20locadora.png "Modelo Conceitual")
     
     
     

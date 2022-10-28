@@ -95,16 +95,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 
-        (criação de tabelas, alterações, etc..) 
-        
-       
-### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-        (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
-/* Lógico_realofc: */
+        (criação de tabelas, alterações, etc..)             
 
 CREATE TABLE LOCACAO (
     cod_loc INTEGER PRIMARY KEY,
@@ -200,6 +191,14 @@ ALTER TABLE Midia_locacao ADD CONSTRAINT FK_Midia_locacao_2
     FOREIGN KEY (fk_LOCACAO_cod_loc)
     REFERENCES LOCACAO (cod_loc)
     ON DELETE SET NULL;
+       
+### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
+        (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
+        b) Criar um novo banco de dados para testar a restauracao 
+        (em caso de falha na restauração o grupo não pontuará neste quesito)
+        c) formato .SQL
+
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>

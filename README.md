@@ -40,6 +40,14 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 [Link de teste NetMovies](https://www.quant-ux.com/#/test.html?h=a2aa10aePOM0HkfDPYarPO1Kwzd5ezRVMKLy8Fjg3RtBaiNbOCUWtLotsmKi&ln=en "Empresa NetMovies")
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
+    
+O sistema deverá retornar um relatório com todas as locações, relacionadas com o nome e o cpf do cliente<br>
+O sistema deverá retornar um relatório com as locações entregues por entregador<br>
+O sistema deverá retornar um relatório com todas as mídias existentes no sistema<br>
+O sistema deverá retornar um relatório com todos os clientes<br>
+O sistema deverá retornar um relatório com o quanto os clientes gastaram<br>
+O sistema deverá retornar um relatório com o valor total arrecadado com as vendas
+
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
 > A Empresa DevCom precisa inicialmente dos seguintes relatórios:

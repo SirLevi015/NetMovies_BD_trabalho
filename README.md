@@ -86,7 +86,6 @@ Relatório com todos os entregadores<br>
 ![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/Modelo%20conceitual%20locadora.png "Modelo Conceitual")
     
     
-        
     
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: Fabio, Levi, Petar;
@@ -96,9 +95,47 @@ Relatório com todos os entregadores<br>
     [objeto]: [descrição do objeto]
     
     EXEMPLO:
+    PESSOA: Tabela que armazena as informações relativas a pessoa<br>
+    nome: Campo que armazena o nome da pessoa<br>
+    cpf: Campo que armazena o número de Cadastro de Pessoa Física para cada pessoa<br>
+    cod_pessoa: Código no sistema que é vinculado a cada pessoa<br>
+    
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    email: Campo que armazena o email do cliente<br>
+    senha: Campo que armazena a senha do cliente<br>
+    endereco: Campo que armazena o endereço do cliente<br>
+    
+    ENTREGADOR: Tabela que armazena as informações relativas ao entregador<br>
+    placa_moto: Campo que armazena a placa da moto do entregador<br>
+    
+    LOCACAO: Tabela que armazena as informações relativas a locação<br>
+    cod_loc: Código no sistema que é vinculado a locação<br>
+    data_locacao: Campo que armazena a data inicial da locação<br>
+    data_devolucao: Campo que armazena a data da devolução<br>
+    
+    MIDIA: Tabela que armazena as informações relativas a mídia<br>
+    nome_midia: Campo que armazena o nome da mídia<br>
+    categoria: Campo que armazena a categoria da mídia<br>
+    direcao: Campo que armazena quem dirigiu aquela mídia<br>
+    atores: Campo que armazena os atores presentes naquela mídia<br>
+    sinopse: Campo que armazena a sinopse da mídia<br>
+    data_lancamento: Campo que armazena a data de lançamento da mídia<br>
+    valor: Campo que armazena o valor da mídia<br>
+    
+    FILME: Tabela que armazena as informações relativas a filme<br>
+    duracao: Campo que armazena a duração do filme<br>
+    
+    SERIE: Tabela que armazena as informações relativas a série<br>
+    temporada: Campo que armazena a quantidade de temporadas da série<br>
+    episodio: Campo que armazena a quantidade de episódios da série<br>
+    
 
+
+#### 5.3 Principais fluxos de informações
+     [Fluxo 01] Cliente com Locação;
+     [Fluxo 02] Locação com Mídia;
+     [Fluxo 03] Entregador com Locação;
+     
 
 ### 6	MODELO LÓGICO<br>
         a) inclusão do esquema lógico do banco de dados

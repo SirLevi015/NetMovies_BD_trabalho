@@ -70,7 +70,7 @@ Relatório com todos os entregadores<br>
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas/registros de dados.
     b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     
-![Exemplo de tabela de dados NetMovies](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/arquivos/excel_bd1.xlsx "Tabela - NetMovies")
+[Exemplo de tabela de dados NetMovies](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/arquivos/excel_bd1.xlsx "Tabela - NetMovies")
     
     
 ### 5.MODELO CONCEITUAL<br>

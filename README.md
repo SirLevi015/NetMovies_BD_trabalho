@@ -325,35 +325,35 @@ insert into midia_locacao values(10,5,1);<br>
 
 select * from pessoa
 
-(https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_pessoa.png "Tabela pessoa")
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_pessoa.png "Tabela pessoa")
 
 select * from cliente;
 
-(https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/Select_cliente.png "Tabela cliente")
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/Select_cliente.png "Tabela cliente")
 
 select * from entregador;
 
-(https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_entregador.png "Tabela entregador")
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_entregador.png "Tabela entregador")
 
 select * from locacao;
 
-(https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_locacao.png "Tabela locação")
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_locacao.png "Tabela locação")
 
 select * from midia;
 
-(https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_midia.png "Tabela mídia")
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_midia.png "Tabela mídia")
 
 select * from filme;
 
-(https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_filme.png "Tabela filme")
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_filme.png "Tabela filme")
 
 select * from serie;
 
-(https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_serie.png "Tabela série")
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_serie.png "Tabela série")
 
 select * from midia_locacao;
 
-(https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_midialocacao.png "Tabela Midia_Locacao)
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_midialocacao.png "Tabela Midia_Locacao)
 
 ># Marco de Entrega 01: Do item 1 até o item 9.1<br>
 

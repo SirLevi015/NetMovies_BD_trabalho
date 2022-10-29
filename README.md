@@ -353,7 +353,7 @@ select * from serie;
 
 select * from midia_locacao;
 
-![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_midialocacao.png "Tabela Midia_Locacao)
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/select_midialocacao.png "Tabela Midia_Locacao")
 
 ># Marco de Entrega 01: Do item 1 até o item 9.1<br>
 

@@ -149,7 +149,7 @@ Relatório com todos os entregadores<br>
         (criação de tabelas, alterações, etc..)             
 
 CREATE TABLE LOCACAO<br>
-(
+(<br>
     cod_loc INTEGER PRIMARY KEY,<br>
     data_devolucao INTEGER,<br>
     data_locacao DATE,<br>
@@ -159,7 +159,7 @@ CREATE TABLE LOCACAO<br>
 );
 
 CREATE TABLE MIDIA<br>
-(
+(<br>
     cod_midia INTEGER PRIMARY KEY,<br>
     nome_midia VARCHAR,<br>
     categoria VARCHAR,<br>
@@ -171,13 +171,13 @@ CREATE TABLE MIDIA<br>
 );
 
 CREATE TABLE ENTREGADOR<br>
-(
+(<br>
     placa_moto VARCHAR,<br>
     FK_PESSOA_cod_pessoa INTEGER PRIMARY KEY<br>
 );
 
 CREATE TABLE CLIENTE<br>
-(
+(<br>
     email VARCHAR,<br>
     endereco VARCHAR,<br>
     senha VARCHAR,<br>
@@ -185,27 +185,27 @@ CREATE TABLE CLIENTE<br>
 );
 
 CREATE TABLE FILME<br>
-(
+(<br>
     duracao TIME,<br>
     FK_MIDIA_cod_midia INTEGER PRIMARY KEY<br>
 );
 
 CREATE TABLE SERIE<br>
-(
+(<br>
     temporada INTEGER,<br>
     episodio INTEGER,<br>
     FK_MIDIA_cod_midia INTEGER PRIMARY KEY<br>
 );
 
 CREATE TABLE PESSOA<br>
-(
+(<br>
     nome VARCHAR,<br>
     cpf VARCHAR,<br>
     cod_pessoa INTEGER PRIMARY KEY<br>
 );
 
 CREATE TABLE Midia_locacao<br>
-(
+(<br>
     fk_MIDIA_cod_midia INTEGER,<br>
     fk_LOCACAO_cod_loc INTEGER,<br>
     qtd_midia INTEGER<br>

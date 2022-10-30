@@ -148,7 +148,8 @@ Relatório com todos os entregadores<br>
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 
         (criação de tabelas, alterações, etc..)             
 
-CREATE TABLE LOCACAO (<br>
+CREATE TABLE LOCACAO<br>
+(
     cod_loc INTEGER PRIMARY KEY,<br>
     data_devolucao INTEGER,<br>
     data_locacao DATE,<br>
@@ -157,7 +158,8 @@ CREATE TABLE LOCACAO (<br>
     FK_CLIENTE_FK_PESSOA_cod_pessoa INTEGER<br>
 );
 
-CREATE TABLE MIDIA (<br>
+CREATE TABLE MIDIA<br>
+(
     cod_midia INTEGER PRIMARY KEY,<br>
     nome_midia VARCHAR,<br>
     categoria VARCHAR,<br>
@@ -168,36 +170,42 @@ CREATE TABLE MIDIA (<br>
     valor INTEGER<br>
 );
 
-CREATE TABLE ENTREGADOR (<br>
+CREATE TABLE ENTREGADOR<br>
+(
     placa_moto VARCHAR,<br>
     FK_PESSOA_cod_pessoa INTEGER PRIMARY KEY<br>
 );
 
-CREATE TABLE CLIENTE (<br>
+CREATE TABLE CLIENTE<br>
+(
     email VARCHAR,<br>
     endereco VARCHAR,<br>
     senha VARCHAR,<br>
     FK_PESSOA_cod_pessoa INTEGER PRIMARY KEY<br>
 );
 
-CREATE TABLE FILME (<br>
+CREATE TABLE FILME<br>
+(
     duracao TIME,<br>
     FK_MIDIA_cod_midia INTEGER PRIMARY KEY<br>
 );
 
-CREATE TABLE SERIE (<br>
+CREATE TABLE SERIE<br>
+(
     temporada INTEGER,<br>
     episodio INTEGER,<br>
     FK_MIDIA_cod_midia INTEGER PRIMARY KEY<br>
 );
 
-CREATE TABLE PESSOA (<br>
+CREATE TABLE PESSOA<br>
+(
     nome VARCHAR,<br>
     cpf VARCHAR,<br>
     cod_pessoa INTEGER PRIMARY KEY<br>
 );
 
-CREATE TABLE Midia_locacao (<br>
+CREATE TABLE Midia_locacao<br>
+(
     fk_MIDIA_cod_midia INTEGER,<br>
     fk_LOCACAO_cod_loc INTEGER,<br>
     qtd_midia INTEGER<br>

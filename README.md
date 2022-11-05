@@ -281,16 +281,16 @@ insert into entregador values('RBT-1322', 2);<br>
 insert into entregador values('CJF-1234',3);<br>
 insert into entregador values('JSF-4623',10);<br>
 
-insert into locacao values(1, '2021/07/10', 2, 1, '2021/07/17');<br>
-insert into locacao values(2,'2022/08/03',3,4,'2022/08/10');<br>
-insert into locacao values(3,'2022/08/22',2,5,'2022/10/29');<br>
-insert into locacao values(4,'2022/08/11',3,6,'2022/09/18');<br>
-insert into locacao values(5,'2022/08/20',2,4,'2022/10/27');<br>
-insert into locacao values(6,'2022/05/10',10,8,'2022/05/17');<br>
-insert into locacao values(7,'2022/03/03',10,9,'2022/03/10');<br>
-insert into locacao values(8,'2022/04/30',2,7,'2022/05/07');<br>
-insert into locacao values(9,'2022/06/10',10,8,'2022/06/17');<br>
-insert into locacao values(10,'2022/04/30',3,9,'2022/05/07');<br>
+insert into locacao values(1, 10/07/2021, 2, 1, '17/07/2021', '11/07/2021', '2021-07-11');<br>
+insert into locacao values(2, 03/08/2022, 3, 4, '10/08/2022', '03/08/2021', '2021-08-03');<br>
+insert into locacao values(3, 22/08/2022, 2, 5, '29/10/2022', '22/08/2021', '2021-08-22');<br>
+insert into locacao values(4, 11/08/2022, 3, 6, '18/09/2022', '13/08/2021', '2021-08-13');<br>
+insert into locacao values(5, 20/08/2022, 2, 4, '27/10/2022', '20/08/2021', '2021-08-20');<br>
+insert into locacao values(6, 10/05/2022, 10, 8, '17/05/2022', '10/05/2021', '2021-05-10');<br>
+insert into locacao values(7, 03/03/2022, 10, 9, '10/03/2022', '05/03/2021', '2021-03-05');<br>
+insert into locacao values(8, 30/04/2022, 2, 7, '07/05/2022', '30/04/2021', '2021-04-30');<br>
+insert into locacao values(9, 10/06/2022, 10, 8, '17/06/2022', '10/06/2021', '2021-06-10');<br>
+insert into locacao values(10, 30/04/2022, 3, 9, '07/05/2022', '01/05/2021', '2021-05-01');<br>
 
 insert into midia values(1, 'Os sem floresta', 'Comédia', 'Travis scott', 'Sinopse1', 'Ator1,Ator2', '2006/07/07', 20);<br>
 insert into midia values(2,'Inglórios Bastardos','Guerra','Quentin Quarantino','Sinopse2','Ator1,Ator2,Ator3,Ator4,Ator5','2009/10/09',30);<br>

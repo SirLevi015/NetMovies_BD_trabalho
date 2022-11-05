@@ -83,7 +83,7 @@ Relatório com todos os entregadores<br>
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
-![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/Modelo%20conceitual%20da%20locadora.png "Modelo Conceitual")
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/conceitual.png "Modelo Conceitual")
     
     
     
@@ -142,7 +142,7 @@ Relatório com todos os entregadores<br>
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
 
-![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/Modelo%20l%C3%B3gico%20locadora.png "Modelo Lógico")
+![Alt text](https://github.com/SirLevi015/NetMovies_BD_trabalho/blob/master/images/Logico.png "Modelo Lógico")
 
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 

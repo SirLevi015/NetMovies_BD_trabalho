@@ -151,9 +151,9 @@ Relatório com todos os entregadores<br>
 CREATE TABLE LOCACAO<br>
 (<br>
     cod_loc INTEGER PRIMARY KEY,<br>
-    data_devolucao INTEGER,<br>
-    data_locacao DATE,<br>
-    valor_total INTEGER,<br>
+    data_devolucao DATE,<br>
+    data_entrega DATE,<br>
+    data_locacao DATE,<br>    
     FK_ENTREGADOR_FK_PESSOA_cod_pessoa INTEGER,<br>
     FK_CLIENTE_FK_PESSOA_cod_pessoa INTEGER<br>
 );

@@ -88,7 +88,7 @@ Relatório com todos os entregadores<br>
     
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: Fabio, Levi, Petar;
+    [Grupo01]: Josué, Luiz, Mateus Lannes;
     [Grupo02]: João, Marcos, Vinícius, Bruno;
 
 #### 5.2 Descrição dos dados 

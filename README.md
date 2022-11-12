@@ -331,7 +331,7 @@ insert into midia_locacao values(10,5,1);<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
-Consulta realizada no Google Colab: (https://colab.research.google.com/drive/1buS3GlLClS8b_6_Mrbf7RU1SpajeaQuC?usp=sharing "Google Colab NetMovies")
+Consulta realizada no Google Colab: [Google Colab NetMovies](https://colab.research.google.com/drive/1buS3GlLClS8b_6_Mrbf7RU1SpajeaQuC?usp=sharing "Google Colab NetMovies")
 
 ># Marco de Entrega 01: Do item 1 até o item 9.1<br>
 

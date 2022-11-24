@@ -268,6 +268,47 @@ insert into pessoa values ('Irineu',77777777777,7);<br>
 insert into pessoa values ('Cleber',88888888888,8);<br>
 insert into pessoa values ('Kristian',99999999999,9);<br>
 insert into pessoa values ('Thiago',10101010101,10);<br>
+  INSERT INTO Pessoa VALUES ('Brent Watts','12059021288',11);<br>
+  INSERT INTO Pessoa VALUES ('Gannon Hays','84012635718',12);<br>
+  INSERT INTO Pessoa VALUES ('Haley Soto','57018368420',13);<br>
+  INSERT INTO Pessoa VALUES ('Leo Gay','60431966342',14);<br>
+  INSERT INTO Pessoa VALUES ('Cameran Mcpherson','63260943196',15);<br>
+  INSERT INTO Pessoa VALUES ('Bryar Dickson','73140458705',16);<br>
+  INSERT INTO Pessoa VALUES ('Josiah Powell','79299596985',17);<br>
+  INSERT INTO Pessoa VALUES ('Darrel Lowery','36398551119',18);<br>
+  INSERT INTO Pessoa VALUES ('Gloria Bond','48778161770',19);<br>
+  INSERT INTO Pessoa VALUES ('Judith Peterson','88370291149',20);<br>
+  INSERT INTO Pessoa VALUES ('Mallory Shaw','70674717154',21);<br>
+  INSERT INTO Pessoa VALUES ('Amy Phelps','68216300734',22);<br>
+  INSERT INTO Pessoa VALUES ('James Copeland','26854463528',23);<br>
+  INSERT INTO Pessoa VALUES ('Sybil Lindsey','94629123213',24);<br>
+  INSERT INTO Pessoa VALUES ('Karyn Henson','17394667855',25);<br>
+  INSERT INTO Pessoa VALUES ('Graiden Maldonado','18357933491',26);<br>
+  INSERT INTO Pessoa VALUES ('Hedley Gomez','80661326586',27);<br>
+  INSERT INTO Pessoa VALUES ('Xandra Norris','57856107842',28);<br>
+  INSERT INTO Pessoa VALUES ('Dorian Hardy','79534017206',29);<br>
+  INSERT INTO Pessoa VALUES ('Ima Saunders','37034999373',30);<br>
+  INSERT INTO Pessoa VALUES ('Demetria Ratliff','34803568473',31);<br>
+  INSERT INTO Pessoa VALUES ('Galvin Juarez','83753319566',32);<br>
+  INSERT INTO Pessoa VALUES ('Armando Mays','99185471098',33);<br>
+  INSERT INTO Pessoa VALUES ('Cairo Campbell','42835812759',34);<br>
+  INSERT INTO Pessoa VALUES ('Yoko Pace','73135938427',35);<br>
+  INSERT INTO Pessoa VALUES ('Cassandra Little','74529821315',36);<br>
+  INSERT INTO Pessoa VALUES ('Dale Singleton','12097486143',37);<br>
+  INSERT INTO Pessoa VALUES ('Omar Beck','47791278272',38);<br>
+  INSERT INTO Pessoa VALUES ('Clayton Lowe','76622601012',39);<br>
+  INSERT INTO Pessoa VALUES ('Sage Davenport','69602409894',40);<br>
+  INSERT INTO Pessoa VALUES ('Winter Marshall','46271667944',41);<br>
+  INSERT INTO Pessoa VALUES ('Philip Livingston','95947596487',42);<br>
+  INSERT INTO Pessoa VALUES ('Hasad Harmon','11204746751',43);<br>
+  INSERT INTO Pessoa VALUES ('Xavier Newton','24624186877',44);<br>
+  INSERT INTO Pessoa VALUES ('Carol Nieves','71582958786',45);<br>
+  INSERT INTO Pessoa VALUES ('Demetria Bradford','84029233238',46);<br>
+  INSERT INTO Pessoa VALUES ('Hyatt Mccall','38112790796',47);<br>
+  INSERT INTO Pessoa VALUES ('Mohammad Simpson','61423048010',48);<br>
+  INSERT INTO Pessoa VALUES ('Holmes Cameron','35616987103',49);<br>
+  INSERT INTO Pessoa VALUES ('Kelly Brennan','85228231342',50);<br>
+
 
 insert into cliente values ('levi@gmail.com', 'Vitória', 'Levi123', 1);<br>
 insert into cliente values ('silvana@gmail.com','rua da silva junior','Senha123',4);<br>

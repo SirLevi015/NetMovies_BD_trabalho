@@ -15,7 +15,7 @@ Integrantes do grupo<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto>
 <br> e motivação da escolha realizada. <br>
 
-> A locadora NetMovies visa perante a sociedade fornecer via vendas produtos de filmes, sendo feita de forma on-line.
+> A locadora NetMovies visa vender filmes e séries para sociedade, porém com a chegada e ascensão dos serviços de streaming online se tornou cada vez mais díficil prover esses serviços visto que os clientes muitas vezes preferem assinar um serviço do conforto da casa dele do que ir na locadora comprar uma mídia. Com essa motivação foi-se criado a ideia de realizar essas locações de forma online e a locadora enviar essas mídias para a residência do cliente. Para isso a empresa necessita que o sistema armazene informações relativas aos clientes, entregadores, locações e mídias. Com essas informações o sistema deverá gerar relatórios que serão de bom uso pra empresa.
 
 ### 3.MINI-MUNDO<br>
 

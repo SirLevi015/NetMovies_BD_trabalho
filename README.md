@@ -573,6 +573,10 @@ Relatórios disponíveis no Google Colab: [Google Colab NetMovies](https://colab
 #### a) Modelo (pecha kucha)<br>
 #### b) Tempo de apresentação 6:40 
 
+Link do Pecha Kucha: [Pecha Kucha NetMovies](https://1drv.ms/p/s!Ao5Zpl3AeiOq2gpR6fE-vHg0AVDz?e=aYVPeN "Pecha Kucha NetMovies")
+
+Link do youtube enviado por e-mail. Vídeo privado.
+
 ># Marco de Entrega 03: Itens 10 e 11<br>
 <br>
 <br>

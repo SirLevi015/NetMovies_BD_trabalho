@@ -566,8 +566,8 @@ Consulta realizada no Google Colab: [Google Colab NetMovies](https://colab.resea
 #### b) link com exemplo de relatórios será disponiblizado pelo professor no AVA
 #### OBS: Esta é uma atividade de grande relevância no contexto do trabalho. Mantenha o foco nos 5 principais relatórios/resultados visando obter o melhor resultado possível.
 
+Relatórios disponíveis no Google Colab: [Google Colab NetMovies](https://colab.research.google.com/drive/1buS3GlLClS8b_6_Mrbf7RU1SpajeaQuC?usp=sharing "Google Colab NetMovies")
     
-
 ### 11	AJUSTES DA DOCUMENTAÇÃO, CRIAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
 
 #### a) Modelo (pecha kucha)<br>
